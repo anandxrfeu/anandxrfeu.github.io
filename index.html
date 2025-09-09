@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Name — Engineering Manager & Indie SaaS Builder</title>
+    <meta name="description" content="Engineering Manager & Indie SaaS Builder. 15+ years in outsourcing and engineering leadership, now building SaaS and open to remote EM roles." />
+    <meta name="theme-color" content="#0ea5a4" />
+    <meta property="og:title" content="Your Name — Engineering Manager & Indie SaaS Builder" />
+    <meta property="og:description" content="Portfolio, selected projects, and ways to contact me." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/og-image.png" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/site.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body class="font-sans antialiased bg-neutral-50 text-neutral-900 [font-family:'Inter',system-ui,-apple-system,Segoe_UI,Roboto,Ubuntu,'Helvetica_Neue',Arial] selection:bg-teal-600 selection:text-white">
+    <!-- Header -->
+    <header class="sticky top-0 z-30 backdrop-blur supports-[backdrop-filter]:bg-white/80 border-b border-neutral-200">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="flex items-center justify-between h-16">
+          <a href="#" class="inline-flex items-center gap-2">
+            <span class="inline-flex items-center justify-center h-8 w-8 rounded-full bg-gradient-to-br from-teal-50 to-white ring-1 ring-inset ring-neutral-200 text-sm font-semibold tracking-tight">AT</span>
+            <span class="text-sm text-neutral-500"></span>
+          </a>
+
+          <nav class="hidden md:flex items-center gap-6 text-sm">
+            <a href="#projects" class="text-neutral-600 hover:text-neutral-900 transition-colors">Projects</a>
+            <a href="#about" class="text-neutral-600 hover:text-neutral-900 transition-colors">About</a>
+            <a href="#career" class="text-neutral-600 hover:text-neutral-900 transition-colors">Career</a>
+            <a href="#contact" class="text-neutral-600 hover:text-neutral-900 transition-colors">Contact</a>
+          </nav>
+
+          <div class="flex items-center gap-2">
+            <a href="#contact" class="ml-2 hidden sm:inline-flex items-center gap-1 rounded-md bg-teal-600 text-white px-3 py-2 text-sm font-medium tracking-tight hover:bg-teal-700 transition-colors">
+              <i data-lucide="mail" class="h-4 w-4"></i> Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="mx-auto max-w-6xl px-4 sm:px-6 pt-10 sm:pt-14">
+      <div class="grid grid-cols-1 md:grid-cols-[auto,1fr] gap-8 items-start">
+      <!-- Photo avatar (rectangular) -->
+      <div class="relative">
+        <div class="h-32 w-28 rounded-lg bg-neutral-100 ring-1 ring-neutral-200 shadow-[0_0_0_1px_rgba(0,0,0,0.02)] overflow-hidden">
+          <img src="assets/profile.jpeg" alt="Your Name" class="h-full w-full object-cover" />
+        </div>
+        <div class="absolute -bottom-2 -right-2 rounded-md bg-teal-50 px-2 py-1 text-teal-700 text-[11px] font-medium ring-1 ring-teal-200">
+          <span class="inline-flex items-center gap-1">
+            <i data-lucide="zap" class="h-3.5 w-3.5"></i> Shipping
+          </span>
+        </div>
+      </div>
+
+
+        <div class="space-y-5">
+          <div>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight">Anand Tamilchelvan</h1>
+            <p class="mt-2 text-base sm:text-lg text-neutral-700">Engineering Manager & Indie SaaS Builder</p>
+            <p class="mt-3 text-[15px] text-neutral-600 leading-relaxed">I lead teams to ship reliable software and build lean SaaS products.</p>
+          </div>
+
+          <div class="flex flex-wrap items-center gap-3">
+            <a href="#projects" class="inline-flex items-center gap-1.5 rounded-md bg-teal-600 text-white px-4 py-2 text-sm font-medium tracking-tight hover:bg-teal-700 transition-colors">
+              <i data-lucide="folder-open" class="h-4 w-4"></i> View My Work
+            </a>
+            <a href="#contact" class="inline-flex items-center gap-1.5 rounded-md bg-white px-4 py-2 text-sm font-medium text-neutral-700 ring-1 ring-inset ring-neutral-200 hover:bg-stone-50 hover:text-neutral-900 transition-colors">
+              <i data-lucide="send" class="h-4 w-4"></i> Contact Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="mx-auto max-w-6xl px-4 sm:px-6 pt-12 sm:pt-16">
+      <div class="flex items-end justify-between gap-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight">Projects</h2>
+          <p class="mt-1 text-sm text-neutral-600">Selected work and experiments.</p>
+        </div>
+      </div>
+
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+      <!-- Project Card: Remindr -->
+      <article class="group rounded-xl bg-white ring-1 ring-inset ring-neutral-200 hover:ring-neutral-300 hover:shadow-sm transition-all overflow-hidden">
+        <!-- Image section (top) -->
+        <figure class="aspect-video w-full overflow-hidden border-b border-neutral-200 -mb-px">
+          <img
+            src="assets/remindr-screenshot.png"
+            alt="Remindr app preview"
+            class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+
+        <!-- Text content (matches the other cards) -->
+        <div class="p-4 space-y-3">
+          <div class="flex items-start justify-between gap-3">
+            <div class="min-w-0">
+              <h3 class="text-lg font-semibold tracking-tight truncate">Remindr</h3>
+              <p class="mt-1 text-sm text-neutral-600 line-clamp-2">
+                Whatsapp based reminder app for Digital Minimalists.
+              </p>
+            </div>
+            <span class="shrink-0 inline-flex items-center gap-1 rounded-md bg-amber-50 px-2 py-1 text-[11px] font-medium text-amber-700 ring-1 ring-amber-200">
+              <i data-lucide="circle-dot" class="h-3.5 w-3.5"></i> Building
+            </span>
+          </div>
+
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-1 text-[11px] rounded bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">React</span>
+            <span class="px-2 py-1 text-[11px] rounded bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">Node.js</span>
+            <span class="px-2 py-1 text-[11px] rounded bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">MongoDB</span>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <a href="https://remindrhq.com/" target="_blank" class="inline-flex items-center gap-1 rounded-md px-2.5 py-1.5 text-sm bg-teal-600 text-white hover:bg-teal-700 transition-colors">
+              <i data-lucide="external-link" class="h-4 w-4"></i> Live
+            </a>
+            <a href="https://github.com/anandxrfeu/remindr-client" target="_blank" class="inline-flex items-center gap-1 rounded-md px-2.5 py-1.5 text-sm bg-white text-neutral-700 ring-1 ring-inset ring-neutral-200 hover:bg-stone-50 hover:text-neutral-900 transition-colors">
+              <i data-lucide="github" class="h-4 w-4"></i> Code
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- Project Card: School predictor -->
+        <article class="group rounded-xl bg-white ring-1 ring-inset ring-neutral-200 hover:ring-neutral-300 hover:shadow-sm transition-all overflow-hidden">
+        <!-- Image section (top) -->
+        <figure class="aspect-video w-full overflow-hidden border-b border-neutral-200 -mb-px">
+          <img
+            src="assets/school-screenshot.png"
+            alt="Remindr app preview"
+            class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+
+        <!-- Text content (matches the other cards) -->
+        <div class="p-4 space-y-3">
+          <div class="flex items-start justify-between gap-3">
+            <div class="min-w-0">
+              <h3 class="text-lg font-semibold tracking-tight truncate">Resource Predictor</h3>
+              <p class="mt-1 text-sm text-neutral-600 line-clamp-2">
+                Predicts educational resources needs across Brazil.
+              </p>
+            </div>
+            <span class="shrink-0 inline-flex items-center gap-1 rounded-md bg-neutral-100 px-2 py-1 text-[11px] font-medium text-neutral-700 ring-1 ring-neutral-200">
+                <i data-lucide="beaker" class="h-3.5 w-3.5"></i> Experimenting
+              </span>
+          </div>
+
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-1 text-[11px] rounded bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">Deep Learning</span>
+            <span class="px-2 py-1 text-[11px] rounded bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">Data Analysis</span>
+            <span class="px-2 py-1 text-[11px] rounded bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">GCP</span>
+            <span class="px-2 py-1 text-[11px] rounded bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">Docker</span>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <a href="https://schoolingresourcepredictor.streamlit.app/dashboard" target="_blank" class="inline-flex items-center gap-1 rounded-md px-2.5 py-1.5 text-sm bg-teal-600 text-white hover:bg-teal-700 transition-colors">
+              <i data-lucide="external-link" class="h-4 w-4"></i> Live
+            </a>
+            <a href="https://github.com/anandxrfeu/schooling_resource_predicter_data" target="_blank" class="inline-flex items-center gap-1 rounded-md px-2.5 py-1.5 text-sm bg-white text-neutral-700 ring-1 ring-inset ring-neutral-200 hover:bg-stone-50 hover:text-neutral-900 transition-colors">
+              <i data-lucide="github" class="h-4 w-4"></i> Code
+            </a>
+          </div>
+        </div>
+        </article>
+
+
+        <!-- Project Card: REST API Boilerplate -->
+        <article class="group rounded-xl bg-white ring-1 ring-inset ring-neutral-200 hover:ring-neutral-300 hover:shadow-sm transition-all overflow-hidden">
+          <div class="aspect-video bg-gradient-to-br from-teal-50 to-white border-b border-neutral-200 flex items-center justify-center">
+            <i data-lucide="server" class="h-8 w-8 text-teal-600"></i>
+          </div>
+          <div class="p-4 space-y-3">
+            <div class="flex items-start justify-between gap-3">
+              <div class="min-w-0">
+                <h3 class="text-lg font-semibold tracking-tight truncate">REST API Boilerplate</h3>
+                <p class="mt-1 text-sm text-neutral-600 line-clamp-2">Includes user management, auth, email verification, stripe billing etc.</p>
+              </div>
+              <span class="shrink-0 inline-flex items-center gap-1 rounded-md bg-neutral-100 px-2 py-1 text-[11px] font-medium text-neutral-700 ring-1 ring-neutral-200">
+                <i data-lucide="code-2" class="h-3.5 w-3.5"></i> Template
+              </span>
+            </div>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-1 text-[11px] rounded bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">Node.js</span>
+              <span class="px-2 py-1 text-[11px] rounded bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">Express.js</span>
+              <span class="px-2 py-1 text-[11px] rounded bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">MongoDB</span>
+              <span class="px-2 py-1 text-[11px] rounded bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">Stripe</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <!-- <a href="#" class="inline-flex items-center gap-1 rounded-md px-2.5 py-1.5 text-sm bg-teal-600 text-white hover:bg-teal-700 transition-colors">
+                <i data-lucide="external-link" class="h-4 w-4"></i> Live
+              </a> -->
+              <a href="https://github.com/anandxrfeu/express-mongodb-rest-api-boilerplate" target="_blank" class="inline-flex items-center gap-1 rounded-md px-2.5 py-1.5 text-sm bg-white text-neutral-700 ring-1 ring-inset ring-neutral-200 hover:bg-stone-50 hover:text-neutral-900 transition-colors">
+                <i data-lucide="github" class="h-4 w-4"></i> Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+
+
+
+
+      </div>
+
+
+
+      <!-- Simple CTA -->
+      <div class="mt-6 flex items-center justify-between gap-4 rounded-xl bg-white p-4 ring-1 ring-inset ring-neutral-200">
+        <div>
+          <p class="text-sm text-neutral-700">See more projects and templates.</p>
+          <p class="text-xs text-neutral-500">Work in public, clean repos, and pragmatic docs.</p>
+        </div>
+        <a href="https://github.com/anandxrfeu" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 rounded-md bg-white px-3 py-2 text-sm font-medium text-neutral-700 ring-1 ring-inset ring-neutral-200 hover:bg-neutral-50 hover:ring-neutral-300 transition-colors">
+          <i data-lucide="github" class="h-4 w-4"></i> GitHub
+          <i data-lucide="arrow-up-right" class="h-3.5 w-3.5 opacity-60"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Career highlights -->
+    <section id="career" class="mx-auto max-w-6xl px-4 sm:px-6 pt-12 sm:pt-16">
+      <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight">Career highlights</h2>
+      <p class="mt-1 text-sm text-neutral-600">Major roles and transitions.</p>
+
+      <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <!-- Timeline -->
+        <div class="lg:col-span-2 rounded-xl bg-white ring-1 ring-inset ring-neutral-200">
+          <ul class="divide-y divide-neutral-200">
+            <li class="p-4 flex items-start gap-3">
+              <div class="mt-0.5">
+                <i data-lucide="briefcase" class="h-5 w-5 text-teal-600"></i>
+              </div>
+              <div class="flex-1">
+                <div class="flex items-center justify-between">
+                  <p class="text-sm font-medium tracking-tight">Software Engineer - Wipro, Mastercard</p>
+                  <span class="text-xs text-neutral-500">2009–2016</span>
+                </div>
+                <p class="mt-1 text-sm text-neutral-700">Full-stack engineering; Expatriated to Brazil.</p>
+              </div>
+            </li>
+            <li class="p-4 flex items-start gap-3">
+              <div class="mt-0.5">
+                <i data-lucide="layers" class="h-5 w-5 text-teal-600"></i>
+              </div>
+              <div class="flex-1">
+                <div class="flex items-center justify-between">
+                  <p class="text-sm font-medium tracking-tight">Senior Manager — Wipro, Mastercard, Bradesco, Sanepar</p>
+                  <span class="text-xs text-neutral-500">2016–2025</span>
+                </div>
+                <p class="mt-1 text-sm text-neutral-700">Fraud prevention system; Scaling engineering teams; BR public utility modernization.</p>
+              </div>
+            </li>
+            <li class="p-4 flex items-start gap-3">
+              <div class="mt-0.5">
+                <i data-lucide="rocket" class="h-5 w-5 text-teal-600"></i>
+              </div>
+              <div class="flex-1">
+                <div class="flex items-center justify-between">
+                  <p class="text-sm font-medium tracking-tight">Indie SaaS Builder</p>
+                  <span class="text-xs text-neutral-500">2025–Now</span>
+                </div>
+                <p class="mt-1 text-sm text-neutral-700">Building Remindr and small, useful apps. Open to remote Engineering Manager roles.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Current focus -->
+        <div class="rounded-xl bg-white p-4 ring-1 ring-inset ring-neutral-200">
+          <h3 class="text-lg font-semibold tracking-tight">Now</h3>
+          <ul class="mt-3 space-y-2 text-sm text-neutral-700">
+            <li class="flex items-start gap-2">
+              <i data-lucide="target" class="h-4 w-4 mt-0.5 text-teal-600"></i>
+              <span>Shipping MVP for Remindr; refining onboarding and notifications.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="briefcase" class="h-4 w-4 mt-0.5 text-teal-600"></i>
+              <span>Open to remote Engineering Manager roles.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="file-text" class="h-4 w-4 mt-0.5 text-teal-600"></i>
+              <span>Documenting Indie journey.</span>
+            </li>
+          </ul>
+          <a href="#contact" class="mt-4 inline-flex items-center gap-1.5 rounded-md bg-white px-3 py-2 text-sm font-medium text-neutral-700 ring-1 ring-inset ring-neutral-200 hover:bg-stone-50 hover:text-neutral-900 transition-colors">
+            <i data-lucide="message-square" class="h-4 w-4"></i> Get in touch
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="mx-auto max-w-6xl px-4 sm:px-6 pt-12 sm:pt-16">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="md:col-span-2">
+          <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight">About</h2>
+          <p class="mt-2 text-[15px] text-neutral-700 leading-relaxed">
+            I have 15+ years leading enterprise software engineering and building distributed systems across global teams, I’m now pivoting toward Startups, SaaS, and Indiehacking.
+            I’m open to remote Engineering Manager roles where I can combine technical leadership with product-driven execution.
+            Currently, I’m building Remindr and other indie projects focused on delivering clear outcomes and rapid feedback cycles.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="px-2.5 py-1.5 text-xs rounded-md bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">Full-stack</span>
+            <span class="px-2.5 py-1.5 text-xs rounded-md bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">Engineering Management</span>
+            <span class="px-2.5 py-1.5 text-xs rounded-md bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">Indiehacking</span>
+            <span class="px-2.5 py-1.5 text-xs rounded-md bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">SaaS</span>
+            <span class="px-2.5 py-1.5 text-xs rounded-md bg-neutral-100 ring-1 ring-inset ring-neutral-200 text-neutral-700">Product</span>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mx-auto max-w-6xl px-4 sm:px-6 pt-12 sm:pt-16 pb-16">
+      <div class="rounded-xl bg-white p-5 ring-1 ring-inset ring-neutral-200">
+        <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+          <div>
+            <h2 class="text-2xl font-semibold tracking-tight">Let’s Connect</h2>
+            <p class="mt-1 text-sm text-neutral-600">I’m open to remote Engineering Manager opportunities, partnering on indie</p>
+            <p class="mt-1 text-sm text-neutral-600"> SaaS projects, or simply connecting with like-minded builders.</p>
+            <p class="mt-1 text-sm text-neutral-600">If that resonates, I’d love to hear from you.</p>
+            <div class="mt-3 flex flex-wrap items-center gap-2 text-sm">
+              <!-- <a href="#contact" class="inline-flex items-center gap-1.5 rounded-md bg-teal-600 text-white px-3 py-2 hover:bg-teal-700 transition-colors">
+                <i data-lucide="mail" class="h-4 w-4"></i> Email
+              </a> -->
+              <a href="https://www.linkedin.com/in/anand-chelvan/" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 rounded-md bg-white px-3 py-2 text-neutral-700 ring-1 ring-inset ring-neutral-200 hover:bg-neutral-50 transition-colors">
+                <i data-lucide="linkedin" class="h-4 w-4"></i> LinkedIn
+              </a>
+              <a href="https://github.com/anandxrfeu" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 rounded-md bg-white px-3 py-2 text-neutral-700 ring-1 ring-inset ring-neutral-200 hover:bg-neutral-50 transition-colors">
+                <i data-lucide="github" class="h-4 w-4"></i> GitHub
+              </a>
+              <a href="https://x.com/anandxrfeu" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 rounded-md bg-white px-3 py-2 text-neutral-700 ring-1 ring-inset ring-neutral-200 hover:bg-neutral-50 transition-colors">
+                <i data-lucide="twitter" class="h-4 w-4"></i> Twitter/X
+              </a>
+            </div>
+          </div>
+          <div class="flex-1">
+            <!-- Optional form -->
+           <form class="mt-2 grid grid-cols-1 sm:grid-cols-3 gap-3" id="contact-form">
+  <input type="text" name="company" class="hidden" tabindex="-1" autocomplete="off" />
+
+  <!-- Name (1 column) -->
+  <input name="name" type="text" placeholder="Your name"
+        class="rounded-md bg-white px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-400 outline-none ring-1 ring-inset ring-neutral-200 focus:ring-teal-300"
+        required />
+
+  <!-- Email (span 2 columns on sm+) -->
+  <input name="email" type="email" placeholder="you@domain.com"
+        class="sm:col-span-2 rounded-md bg-white px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-400 outline-none ring-1 ring-inset ring-neutral-200 focus:ring-teal-300"
+        required />
+
+  <!-- Message (span full width) -->
+  <textarea name="message" placeholder="Your message"
+            class="sm:col-span-3 rounded-md bg-white px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-400 outline-none ring-1 ring-inset ring-neutral-200 focus:ring-teal-300"
+            rows="3"></textarea>
+
+  <!-- Submit button (span full width) -->
+  <button type="submit"
+          class="sm:col-span-3 inline-flex items-center justify-center gap-1.5 rounded-md bg-teal-600 text-white px-3 py-2 text-sm font-medium tracking-tight hover:bg-teal-700 transition-colors">
+    <i data-lucide="send" class="h-4 w-4"></i> Send
+  </button>
+</form>
+
+
+            <p id="contact-msg" class="mt-2 text-xs text-neutral-500"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-neutral-200">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="h-16 flex items-center justify-between text-sm text-neutral-500">
+          <div class="flex items-center gap-3">
+            <span>© <span id="year">2025</span> Anand Tamilchelvan</span>
+            <span class="hidden sm:inline text-neutral-400">•</span>
+            <span class="hidden sm:inline">Built with <span aria-label="love">♥</span> on GitHub Pages</span>
+          </div>
+          <nav class="flex items-center gap-4">
+            <a href="#projects" class="hover:text-neutral-700 transition-colors">Projects</a>
+            <a href="#about" class="hover:text-neutral-700 transition-colors">About</a>
+            <a href="#career" class="hover:text-neutral-700 transition-colors">Career</a>
+            <a href="#contact" class="hover:text-neutral-700 transition-colors">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="assets/site.js" defer></script>
+  </body>
+</html>

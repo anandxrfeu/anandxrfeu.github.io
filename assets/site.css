@@ -1,0 +1,12 @@
+
+/* Minimal extras that Tailwind doesn't cover (or to add a polish layer) */
+html {
+  scroll-behavior: smooth;
+}
+/* line-clamp polyfill-ish for older browsers (fallback) */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
