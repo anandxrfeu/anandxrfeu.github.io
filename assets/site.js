@@ -27,7 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
       // Collect fields
       const name = form.name.value.trim();
       const email = form.email.value.trim();
+      const title = form.title.value.trim();
       const message = form.message.value.trim();
+
 
       if (!name || !email || !message) {
         msg.textContent = 'Please fill out all fields.';
@@ -44,6 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         await emailjs.send("service_phlcjpe", "template_bqohqhw", {
           name: name,
           email: email,
+          title: title,
           message: message,
         });
 
